@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOTEL WEBSITE</title>
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- header -->
+        <header class="header">
+
+            <a href="#" class="logo"><i class="fas fa-hotel"></i>PRINCE VILLA</a>
+            <nav class="navbar">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#room">ROOM</a>
+                <a href="#gallery">GALLERY</a>
+                <a href="#review">REVIEW</a>
+                <a href="#faq">FAQ</a>
+                <a href="#reservation" class="btn">BOOK NOW</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </header>
+        <!-- end -->
+        
+        <!-- home -->
+        <section class="home" id="home">
+
+            <div class="swiper home-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide" style="background: url(room1.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>IT'S WHERE DREAMS COME TRUE</h3>
+                            <a href="#" class="btn">Visite our offer</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(room2.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>IT'S WHERE DREAMS COME TRUE</h3>
+                            <a href="#" class="btn">Visite our offer</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(room3.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>IT'S WHERE DREAMS COME TRUE</h3>
+                            <a href="#" class="btn">Visite our offer</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(room4.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>IT'S WHERE DREAMS COME TRUE</h3>
+                            <a href="#" class="btn">Visite our offer</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <!-- end -->
+
+        <!-- availability -->
+
+        <section class="availability">
+
+            <form action="">
+
+                <div class="box">
+                    <p>check in <span>*</span></p>
+                    <input type="date" class="input">
+                </div>
+
+                <div class="box">
+                    <p>check out<span>*</span></p>
+                    <input type="date" class="input">
+                </div>
+
+                <div class="box">
+                    <p>adults <span>*</span></p>
+                    <select name="adults" id="" class="input">
+                        <option value="1">1 adults</option>
+                        <option value="2">2 adults</option>
+                        <option value="3">3 adults</option>
+                        <option value="4">4 adults</option>
+                        <option value="5">5 adults</option>
+                        <option value="6">6 adults</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <p>children <span>*</span></p>
+                    <select name="child" id="" class="input">
+                        <option value="1">1 child</option>
+                        <option value="2">2 child</option>
+                        <option value="3">3 child</option>
+                        <option value="4">4 child</option>
+                        <option value="5">5 child</option>
+                        <option value="6">6 child</option>
+                    </select>
+                </div>
+
+
+                <div class="box">
+                    <p>rooms <span>*</span></p>
+                    <select name="rooms" id="" class="input">
+                        <option value="1">1 rooms</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                    </select>
+                </div>
+
+                <input type="submit" value="check availability" class="btn">
+            </form>
+        </section>
+
+        <!-- end -->
+
+        <!-- about -->
+
+        <section class="about" id="about">
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="view.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>about us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nam ducimus eaque, obcaecati accusamus ipsum. Esse, delectus exercitationem. Hic iste ab odit officia totam ut provident non repudiandae autem ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, optio eligendi id eum architecto accusamus sapiente alias saepe sint corporis. Eaque nesciunt pariatur non totam veniam iure molestiae quidem quod!</p>
+                </div>
+
+            </div>
+        </section>
+
+<!-- end -->
+
+<!-- room -->
+
+<section class="room" id="room">
+
+    <h1 class="heading">our room</h1>
+
+    <div class="swiper room-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="price">$15.99/night</span>
+                    <img src="room1.jpg" alt="">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <div class="content">
+                    <h3>Exclusive room</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#reservation" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="price">$15.99/night</span>
+                    <img src="room2.jpg" alt="">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <div class="content">
+                    <h3>Exclusive room</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#reservation" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="price">$15.99/night</span>
+                    <img src="room3.jpg" alt="">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                </div>
+                <div class="content">
+                    <h3>Exclusive room</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#reservation" class="btn">book now</a>
+                </div>
+            </div>
+
+
+        </div>
+    <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+
+<!-- end -->
+
+
+<!-- services -->
+
+<section class="services">
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="swimming.jpg" alt="">
+        <h3>SWIMMING POOL</h3>
+    </div>
+
+    <div class="box">
+        <img src="food.jpg" alt="">
+        <h3>FOOD & DRINK</h3>
+    </div>
+
+    <div class="box">
+        <img src="rest.jpg" alt="">
+        <h3>RESTAURANT</h3>
+    </div>
+
+    <div class="box">
+        <img src="fitness.jpg" alt="">
+        <h3>FITNESS</h3>
+    </div>
+
+    <div class="box">
+        <img src="beauty.jpg" alt="">
+        <h3>BEAUTY SPA</h3>
+    </div>
+
+    <div class="box">
+        <img src="resort.jpg" alt="">
+        <h3>RESORT BEACH</h3>
+    </div>
+
+</div>
+
+</section>
+
+<!-- end -->
+
+<!-- gallery -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> our gallery</h1>
+
+    <div class="swiper gallery-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <img src="gal1.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="gal2.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="gal3.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="gal4.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="gal5.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="gal6.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- end -->
+
+<!-- reviwe -->
+
+<section class="review" id="review">
+
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+
+                <h2 class="heading">client's review</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dolor nostrum unde quam voluptas asperiores, amet quisquam eos alias nemo ab ipsa, magnam voluptatem labore? Praesentium repudiandae ut impedit ex!</p>
+                <div class="user">
+                    <img src="person1.jpeg" alt="">
+                    <div class="user-info">
+                        <h3>John deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+
+                <h2 class="heading">client's review</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dolor nostrum unde quam voluptas asperiores, amet quisquam eos alias nemo ab ipsa, magnam voluptatem labore? Praesentium repudiandae ut impedit ex!</p>
+                <div class="user">
+                    <img src="person1.jpeg" alt="">
+                    <div class="user-info">
+                        <h3>John deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+
+                <h2 class="heading">client's review</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dolor nostrum unde quam voluptas asperiores, amet quisquam eos alias nemo ab ipsa, magnam voluptatem labore? Praesentium repudiandae ut impedit ex!</p>
+                <div class="user">
+                    <img src="person1.jpeg" alt="">
+                    <div class="user-info">
+                        <h3>John deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+
+                <h2 class="heading">client's review</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dolor nostrum unde quam voluptas asperiores, amet quisquam eos alias nemo ab ipsa, magnam voluptatem labore? Praesentium repudiandae ut impedit ex!</p>
+                <div class="user">
+                    <img src="person1.jpeg" alt="">
+                    <div class="user-info">
+                        <h3>John deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+
+                <h2 class="heading">client's review</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dolor nostrum unde quam voluptas asperiores, amet quisquam eos alias nemo ab ipsa, magnam voluptatem labore? Praesentium repudiandae ut impedit ex!</p>
+                <div class="user">
+                    <img src="person1.jpeg" alt="">
+                    <div class="user-info">
+                        <h3>John deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+
+<!-- end -->
+
+<!-- faq -->
+
+<section class="faqs" id="faq">
+
+    <h1 class="heading">frequently asked questions </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="faq.jpg" alt="">
+        </div>
+
+        <div class="content">
+
+            <div class="box active">
+                <h3>what are payment methods?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat </p>
+            </div>
+
+            <div class="box">
+                <h3>what are payment methods?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat </p>
+            </div>
+
+            <div class="box">
+                <h3>what are payment methods?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat </p>
+            </div>
+
+            <div class="box">
+                <h3>what are payment methods?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat </p>
+            </div>
+
+            <div class="box">
+                <h3>what are payment methods?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- end -->
+
+<!-- reservation -->
+
+<section class="reservation" id="reservation">
+
+    <h1 class="heading">book now</h1>
+
+    <form action="">
+
+        <div class="container">
+
+            <div class="box">
+                <p>name <span>*</span></p>
+                <input type="text" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+                <p>email <span>*</span></p>
+                <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+                <p>check in<span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>check out <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>adults <span>*</span></p>
+                <select name="adults" class="input">
+                    <option value="1">1 adults</option>
+                    <option value="2">2 adults</option>
+                    <option value="3">3 adults</option>
+                    <option value="4">4 adults</option>
+                    <option value="5">5 adults</option>
+                    <option value="6">6 adults</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>children <span>*</span></p>
+                <select name="child" class="input">
+                    <option value="1">1 child</option>
+                    <option value="2">2 child</option>
+                    <option value="3">3 child</option>
+                    <option value="4">4 child</option>
+                    <option value="5">5 child</option>
+                    <option value="6">6 child</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>rooms <span>*</span></p>
+                <select name="rooms" class="input">
+                    <option value="1">1 rooms</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                    <option value="6">6 rooms</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>rooms type <span>*</span></p>
+                <select name="type" class="input">
+                    <option value="1">Exclusive rooms</option>
+                    <option value="2">family rooms</option>
+                    <option value="3">daily rooms</option>
+                    <option value="4">panoramic rooms</option>
+                </select>
+            </div>
+
+        </div>
+
+        <input type="submit" value="check availability" class="btn">
+
+    </form>
+
+</section>
+
+<!-- end -->
+
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i>+902-301-0806 </a>
+            <a href="#"> <i class="fas fa-phone"></i>+902-301-0806 </a>
+            <a href="#"> <i class="fas fa-envelope"></i>princeganwani2006@gmail.com </a>
+            <a href="#"> <i class="fas fa-map"></i>sindhu bhavan, ahmedabad </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"><i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about"><i class="fas fa-arrow-right"></i> about </a>
+            <a href="#room"><i class="fas fa-arrow-right"></i> rooms </a>
+            <a href="#gallery"><i class="fas fa-arrow-right"></i> gallery </a>
+            <a href="#reservation"><i class="fas fa-arrow-right"></i> reservation </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> refund policy </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> refund policy </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> refund policy </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> refund policy </a>
+            <a href="#"><i class="fas fa-arrow-right"></i> refund policy </a>
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/profile.php?id=61556816881844" class="fab fa-facebook-f"></a>
+        <a href="https://www.instagram.com/prince___ganwani?igsh=MW5hanJ3mjBibW56MA==s" class="fab fa-instagram"></a>
+        <a href="https://twitter.com/prince_ganwani" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+<div class="credit">&copy; copyright @ 2024 by <span>prince ganwani</span></div>
+</section>
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
